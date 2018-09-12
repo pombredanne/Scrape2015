@@ -2,11 +2,11 @@ from utils import *
 import time
 import json
 from dblp import *
-
-def conversion():
+from google_scholar import search_google_scholar
+def conversion(filepath):
 	yearly_result = {}
 
-	with open("json_result/output.json", "r") as fp:
+	with open(filepath, "r") as fp:
 		dic = json.loads(fp.read())
 		for (name, contents) in dic.items():
 			yearly_result[name] = {}
@@ -32,20 +32,34 @@ def generate_file_name(conf, year, hash_value):
 
 def scrape_all_dblp(filepath):
 	driver = initial()
+	count = 0
 	with open(filepath, 'r') as fp:
 		dic = json.loads(fp.read())
 		for (conf, item) in dic.items(): 
 			for (year, url) in item.items():
 				download(driver, url, "./dblp_result/" + generate_file_name(conf, year, str(hash(url))))
-				time.sleep(1)
+				time.sleep(0.5)
 				count += 1
+				print(count)
+
+
+# def scrape_all_paper(filepath):
+# 	with open(filepath, 'r') as fp:
+# 		for 
+
+
+# 			search_google_scholar()
+
+
 
 if __name__ == '__main__':
 	## conversion()
-	conversion()
-	scrape_all_dblp("json_result/conference_yearly.json")
+	# conversion("output.json")
+	# scrape_all_dblp("json_result/conference_yearly.json")
 	extract_all("dblp_result")
 
+	# search_google_scholar("title.json")
+	# scrape_all_paper("title.json")
 
 
 

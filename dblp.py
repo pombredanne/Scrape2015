@@ -32,7 +32,7 @@ def extract_all(dire):
     for file in file_list:
         lis = extract_information(os.path.join(dire, file))
         year = file[0: 4]
-        conf = file[4: -1]
+        conf = file[]
         for title in lis:
             if title_dic.get(conf) is None:
                 title_dic[conf] = {}
