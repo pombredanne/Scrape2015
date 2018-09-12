@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee67e56f-b19c-4a12-8865-6e8a78f648b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chromedriver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler_dblp_url.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_chrome_proxy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_phantomjs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawl_citation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ghostdriver.log" afterPath="$PROJECT_DIR$/ghostdriver.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,13 +47,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_chrome_proxy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_chrome_proxy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_chrome_proxy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="83" column="12" lean-forward="false" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+            <state relative-caret-position="380">
+              <caret line="83" column="39" lean-forward="true" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crawl_citation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crawl_citation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +101,7 @@
         <option value="$PROJECT_DIR$/test_phantomjs.py" />
         <option value="$PROJECT_DIR$/test_chrome_proxy.py" />
         <option value="$PROJECT_DIR$/crawler_dblp_url.py" />
+        <option value="$PROJECT_DIR$/crawl_citation.py" />
       </list>
     </option>
   </component>
@@ -149,7 +160,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crawler_dblp_url">
+  <component name="RunManager" selected="Python.crawl_citation">
+    <configuration name="crawl_citation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Scrape2015" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawl_citation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="crawler_dblp_url" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,16 +229,18 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.test_phantomjs" />
       <item index="1" class="java.lang.String" itemvalue="Python.test_chrome_proxy" />
       <item index="2" class="java.lang.String" itemvalue="Python.crawler_dblp_url" />
+      <item index="3" class="java.lang.String" itemvalue="Python.crawl_citation" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.crawler_dblp_url" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_chrome_proxy" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test_phantomjs" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.crawl_citation" />
+        <item index="1" class="java.lang.String" itemvalue="Python.crawler_dblp_url" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_chrome_proxy" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test_phantomjs" />
       </list>
     </recent_temporary>
   </component>
@@ -297,10 +327,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_chrome_proxy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="83" column="12" lean-forward="false" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+        <state relative-caret-position="380">
+          <caret line="83" column="39" lean-forward="true" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl_citation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
