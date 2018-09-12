@@ -27,7 +27,7 @@ def parse_year(year_str):
 
 def generate_file_name(conf, year, hash_value):
 
-	return year + "_" + conf + "_" + hash_value
+	return year + "_" + conf + "?" + hash_value
 		
 
 def scrape_all_dblp(filepath):
@@ -53,14 +53,13 @@ def scrape_all_dblp(filepath):
 
 
 if __name__ == '__main__':
-	## conversion()
-	# conversion("output.json")
-	# scrape_all_dblp("json_result/conference_yearly.json")
+	# conversion()
+	conversion("output.json")
+	scrape_all_dblp("json_result/conference_yearly.json")
 	extract_all("dblp_result")
-
-	# search_google_scholar("title.json")
+	
 	# scrape_all_paper("title.json")
-
+	# search_google_scholar("title.json")
 
 
 	
