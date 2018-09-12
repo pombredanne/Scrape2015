@@ -45,8 +45,8 @@ def scrape_all_dblp(filepath):
 
 # def scrape_all_paper(filepath):
 # 	with open(filepath, 'r') as fp:
-# 		for 
-
+# 		dic = json.loads(fp.read(filepath))
+# 		for (conf, ) in 
 
 # 			search_google_scholar()
 
@@ -59,7 +59,7 @@ if __name__ == '__main__':
 	extract_all("dblp_result")
 	
 	# scrape_all_paper("title.json")
-	# search_google_scholar("title.json")
+
 
 
 	
