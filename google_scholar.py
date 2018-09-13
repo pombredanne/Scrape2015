@@ -10,8 +10,11 @@ def search_google_scholar(driver, title, filepath):
     time.sleep(2)
     driver.find_element_by_id("gs_hdr_tsb").click()
 
+    if driver.page_source.find(title) == -1:
+        return False
     with open(filepath, "w") as fp:
         fp.write(driver.page_source)
+        return true
 
 def extract_google_scholar(filepath):
     with open(filepath, 'r') as fp:
