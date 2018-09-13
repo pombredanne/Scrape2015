@@ -46,25 +46,25 @@ def scrape_all_dblp(filepath):
 def scrape_all_paper(filepath):
 	origin =  int(open("log", "r").read())
 	driver = initial()
-	with open(filepath, 'r') as fp:
-		dic = json.loads(fp.read())
-		count = 0
-		for (conf, dicts) in dic.items():
-			for (year, titles) in dicts.items():
-				for title in titles:
-					count += 1
-					if origin >	 count:
-						continue
-					try:
+	try:
+		with open(filepath, 'r') as fp:
+			dic = json.loads(fp.read())
+			count = 0
+			for (conf, dicts) in dic.items():
+				for (year, titles) in dicts.items():
+					for title in titles:
+						count += 1
+						if origin >	 count:
+							continue
 						search_google_scholar(driver, title, os.path.join("google_result", generate_file_name(conf, year, str(hash(title)))))
-					except:
-						with open("log", "w") as fp:
-							fp.write(str(count))
-						return 
-					print (count)
-					time.sleep(8)
+						print (count)
+						time.sleep(2)
 
-
+	except Exception as inst:
+		print (inst)
+		with open("log", "w") as fp:
+			fp.write(str(count))
+		return 						
 
 if __name__ == '__main__':
 	# conversion()

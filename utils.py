@@ -15,7 +15,7 @@ from selenium.webdriver.chrome.options import Options
 
 def initial(proxy=None):
     chrome_options = Options()
-    driver = webdriver.Chrome(chrome_options=chrome_options)
+    driver = webdriver.Chrome(executable_path="/usr/local/bin/chromedriver", chrome_options=chrome_options)
     return driver
 
 def download(driver, url, filepath):

@@ -5,9 +5,9 @@ import time
 def search_google_scholar(driver, title, filepath):
     driver.get("https://scholar.google.com/") 
     driver.find_element_by_id("gs_hdr_tsi").clear()
-    time.sleep(3)
+    time.sleep(2)
     driver.find_element_by_id("gs_hdr_tsi").send_keys(title)
-    time.sleep(1)
+    time.sleep(2)
     driver.find_element_by_id("gs_hdr_tsb").click()
 
     with open(filepath, "w") as fp:
