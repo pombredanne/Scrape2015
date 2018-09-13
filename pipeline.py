@@ -57,7 +57,8 @@ def scrape_all_paper(filepath, origin):
 				for title in titles:
 					if count < origin:
 						continue
-					search_google_scholar(driver, title, (os.path.join("google_result", generate_file_name(conf, year, str(hash(title)))) + '.html') )
+					if search_google_scholar(driver, title, (os.path.join("google_result", generate_file_name(conf, year, str(hash(title)))) + '.html') ):
+						raise Exception("Not valid data")
 					count += 1
 					print (count)
 					time.sleep(6)
@@ -84,7 +85,8 @@ if __name__ == '__main__':
 	
 	try:
 		scrape_all_paper("title.json", origin)
-	except:
+	except Exception as e:
+		print (e)
 		with open("log", "w") as fp:
 			fp.write(str(count))
 

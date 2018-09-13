@@ -14,7 +14,7 @@ def search_google_scholar(driver, title, filepath):
         return False
     with open(filepath, "w") as fp:
         fp.write(driver.page_source)
-        return true
+        return True
 
 def extract_google_scholar(filepath):
     with open(filepath, 'r') as fp:
