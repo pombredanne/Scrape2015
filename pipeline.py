@@ -83,12 +83,12 @@ if __name__ == '__main__':
 	with open("log", "r") as fp:
 		origin = int(fp.read())
 	
-	try:
-		scrape_all_paper("title.json", origin)
-	except Exception as e:
-		print (e)
-		with open("log", "w") as fp:
-			fp.write(str(count))
+	#try:
+	scrape_all_paper("title.json", origin)
+	#except Exception as e:
+	#	print (e)
+	#	with open("log", "w") as fp:
+	#		fp.write(str(count))
 
 
 	
