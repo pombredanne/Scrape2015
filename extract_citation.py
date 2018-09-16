@@ -26,12 +26,17 @@ def extract_citation(filename):
         return ' ', -2
     try:
         citation_tag = html.xpath("//div[@class='gs_r gs_or gs_scl']/div[@class='gs_ri']/div[@class='gs_fl']")[0]
-        citation = citation_tag.xpath('.//a')[2]
-        text = citation.text
-        if text.startswith('被引用次数'):
-            return title, text.split('：')[1]
-        else:
+        citation = citation_tag.xpath('.//a')
+        if len(citation) < 3:
             return title, -1
+        else:
+            text = citation[2].text
+            if not text:
+                return title, -1
+            elif text.startswith('被引用次数'):
+                return title, text.split('：')[1]
+            else:
+                return title, -1
     except:
         return title, -2
 
@@ -44,7 +49,7 @@ if __name__ == '__main__':
         conf = file[5: file.find('?')]
         title, citation = extract_citation('./google_result/' + file)
         if citation == -2:
-            print conf, year, title
+            print conf, year, title, file
         if conf not in citation_dict:
             citation_dict[conf] = {}
         if year not in citation_dict[conf]:

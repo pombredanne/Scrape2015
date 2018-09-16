@@ -1,0 +1,55 @@
+2014-2017：
+会议论文总数：
+	nsdi 38 43 45 47
+	www 88 131 126 166
+	sigcomm 97 88 78 36
+	sigmod 167 167 189 149
+	kdd 221 253 236 231
+	infocom 320 316 301 292
+	mobicom 91 84 81 88
+	cvpr 541 603 644 784
+会议作者总数：
+	nsdi 694
+	www 1609
+	sigcomm 1086
+	sigmod 1907
+	kdd 2744
+	infocom 2952
+	mobicom 1015
+	cvpr 4893
+会议每年作者数：
+	nsdi 194 205 207 220
+	www 293 490 452 654
+	sigcomm 401 381 341 216
+	sigmod 590 622 731 536
+	kdd 739 914 859 870
+	infocom 982 1035 1037 1019
+	mobicom 321 311 265 342
+	cvpr 1442 1688 1847 2327
+会议每年平均作者数：
+	nsdi 206.5
+	www 472.25
+	sigcomm 334.75
+	sigmod 619.75
+	kdd 845.5
+	infocom 1018.25
+	mobicom 309.75
+	cvpr 1826
+作者文章数排行：
+	nsdi
+	[(u'Ion Stoica https://dblp.org/pers/hd/s/Stoica:Ion', 11), (u'Arvind Krishnamurthy https://dblp.org/pers/hd/k/Krishnamurthy:Arvind', 8), (u'Vyas Sekar https://dblp.org/pers/hd/s/Sekar:Vyas', 7), (u'Scott Shenker https://dblp.org/pers/hd/s/Shenker:Scott', 7), (u'Dina Katabi https://dblp.org/pers/hd/k/Katabi:Dina', 6), (u'Dongsu Han https://dblp.org/pers/hd/h/Han:Dongsu', 6), (u'Ratul Mahajan https://dblp.org/pers/hd/m/Mahajan:Ratul', 5), (u'Minlan Yu https://dblp.org/pers/hd/y/Yu:Minlan', 5), (u'George Varghese https://dblp.org/pers/hd/v/Varghese:George', 5), (u'KyoungSoo Park https://dblp.org/pers/hd/p/Park:KyoungSoo', 4)]
+	www
+	[(u'Jure Leskovec https://dblp.org/pers/hd/l/Leskovec:Jure', 13), (u'Jon M. Kleinberg https://dblp.org/pers/hd/k/Kleinberg:Jon_M=', 9), (u'Jiawei Han https://dblp.org/pers/hd/h/Han_0001:Jiawei', 8), (u'Christos Faloutsos https://dblp.org/pers/hd/f/Faloutsos:Christos', 7), (u'Yi Chang https://dblp.org/pers/hd/c/Chang:Yi', 7), (u'Markus Strohmaier https://dblp.org/pers/hd/s/Strohmaier:Markus', 7), (u'Qiaozhu Mei https://dblp.org/pers/hd/m/Mei:Qiaozhu', 6), (u'Philippe Cudr\xe9-Mauroux https://dblp.org/pers/hd/c/Cudr=eacute==Mauroux:Philippe', 6), (u'Ravi Kumar https://dblp.org/pers/hd/k/Kumar_0001:Ravi', 6), (u'Silvio Lattanzi https://dblp.org/pers/hd/l/Lattanzi:Silvio', 6)]
+	sigcomm
+	[(u'Jennifer Rexford https://dblp.org/pers/hd/r/Rexford:Jennifer', 10), (u'Ratul Mahajan https://dblp.org/pers/hd/m/Mahajan:Ratul', 9), (u'Mohammad Alizadeh https://dblp.org/pers/hd/a/Alizadeh:Mohammad', 9), (u'Aditya Akella https://dblp.org/pers/hd/a/Akella:Aditya', 9), (u'Amin Vahdat https://dblp.org/pers/hd/v/Vahdat:Amin', 9), (u'Minlan Yu https://dblp.org/pers/hd/y/Yu:Minlan', 8), (u'Nick Feamster https://dblp.org/pers/hd/f/Feamster:Nick', 8), (u'Sachin Katti https://dblp.org/pers/hd/k/Katti:Sachin', 8), (u'Dina Katabi https://dblp.org/pers/hd/k/Katabi:Dina', 7), (u'Anirudh Sivaraman https://dblp.org/pers/hd/s/Sivaraman:Anirudh', 6)]
+	sigmod
+	[(u'Stratos Idreos https://dblp.org/pers/hd/i/Idreos:Stratos', 15), (u'Jeffrey Xu Yu https://dblp.org/pers/hd/y/Yu:Jeffrey_Xu', 13), (u'Tim Kraska https://dblp.org/pers/hd/k/Kraska:Tim', 12), (u'Guoliang Li https://dblp.org/pers/hd/l/Li_0001:Guoliang', 11), (u'Jeffrey F. Naughton https://dblp.org/pers/hd/n/Naughton:Jeffrey_F=', 11), (u'Bin Cui https://dblp.org/pers/hd/c/Cui_0001:Bin', 10), (u'Nan Tang https://dblp.org/pers/hd/t/Tang_0001:Nan', 10), (u'Michael J. Franklin https://dblp.org/pers/hd/f/Franklin:Michael_J=', 10), (u'Andrew Pavlo https://dblp.org/pers/hd/p/Pavlo:Andrew', 10), (u'Christoph Koch https://dblp.org/pers/hd/k/Koch_0001:Christoph', 9)]
+	kdd
+	[(u'Hui Xiong https://dblp.org/pers/hd/x/Xiong:Hui', 24), (u'Jiawei Han https://dblp.org/pers/hd/h/Han_0001:Jiawei', 23), (u'Jieping Ye https://dblp.org/pers/hd/y/Ye:Jieping', 22), (u'Christos Faloutsos https://dblp.org/pers/hd/f/Faloutsos:Christos', 14), (u'Hanghang Tong https://dblp.org/pers/hd/t/Tong:Hanghang', 13), (u'Jing Gao https://dblp.org/pers/hd/g/Gao:Jing', 12), (u'Yong Ge https://dblp.org/pers/hd/g/Ge:Yong', 11), (u'Hengshu Zhu https://dblp.org/pers/hd/z/Zhu:Hengshu', 11), (u'Fei Wang https://dblp.org/pers/hd/w/Wang_0001:Fei', 11), (u'Naren Ramakrishnan https://dblp.org/pers/hd/r/Ramakrishnan:Naren', 11)]
+	infocom
+	[(u'Yunhao Liu https://dblp.org/pers/hd/l/Liu:Yunhao', 23), (u'Zongpeng Li https://dblp.org/pers/hd/l/Li:Zongpeng', 18), (u'Mung Chiang https://dblp.org/pers/hd/c/Chiang:Mung', 14), (u'Baochun Li https://dblp.org/pers/hd/l/Li:Baochun', 13), (u'Qian Zhang https://dblp.org/pers/hd/z/Zhang_0001:Qian', 13), (u'Xiang-Yang Li https://dblp.org/pers/hd/l/Li_0001:Xiang=Yang', 13), (u'Xue Liu https://dblp.org/pers/hd/l/Liu_0001:Xue', 13), (u'Xinbing Wang https://dblp.org/pers/hd/w/Wang:Xinbing', 13), (u'Alex X. Liu https://dblp.org/pers/hd/l/Liu:Alex_X=', 12), (u'Wenjing Lou https://dblp.org/pers/hd/l/Lou:Wenjing', 12)]
+	mobicom
+	[(u'Xinyu Zhang https://dblp.org/pers/hd/z/Zhang_0003:Xinyu', 20), (u'Guobin Shen https://dblp.org/pers/hd/s/Shen:Guobin', 9), (u'Mo Li https://dblp.org/pers/hd/l/Li:Mo', 8), (u'Xiang-Yang Li https://dblp.org/pers/hd/l/Li_0001:Xiang=Yang', 8), (u'Dingyi Fang https://dblp.org/pers/hd/f/Fang:Dingyi', 8), (u'Dina Katabi https://dblp.org/pers/hd/k/Katabi:Dina', 8), (u'Xia Zhou https://dblp.org/pers/hd/z/Zhou:Xia', 8), (u'Yunhao Liu https://dblp.org/pers/hd/l/Liu:Yunhao', 8), (u'Xiaojiang Chen https://dblp.org/pers/hd/c/Chen:Xiaojiang', 8), (u'Chunyi Peng https://dblp.org/pers/hd/p/Peng:Chunyi', 6)]
+	cvpr
+	[(u'Xiaogang Wang https://dblp.org/pers/hd/w/Wang:Xiaogang', 36), (u'Ming-Hsuan Yang https://dblp.org/pers/hd/y/Yang_0001:Ming=Hsuan', 31), (u'Bernt Schiele https://dblp.org/pers/hd/s/Schiele:Bernt', 31), (u'Shuicheng Yan https://dblp.org/pers/hd/y/Yan:Shuicheng', 26), (u'Marc Pollefeys https://dblp.org/pers/hd/p/Pollefeys:Marc', 24), (u'Xiaoou Tang https://dblp.org/pers/hd/t/Tang:Xiaoou', 24), (u'Anton van den Hengel https://dblp.org/pers/hd/h/Hengel:Anton_van_den', 23), (u'Trevor Darrell https://dblp.org/pers/hd/d/Darrell:Trevor', 21), (u'Michael J. Black https://dblp.org/pers/hd/b/Black:Michael_J=', 21), (u'Raquel Urtasun https://dblp.org/pers/hd/u/Urtasun:Raquel', 21)]
+

@@ -14,9 +14,11 @@ def extract_author(filename):
     tags = html.xpath("//li[@class='entry inproceedings']/div[@class='data']")
     for tag in tags:
         author_list = []
-        authors = tag.xpath(".//span[@itemprop='author']/a/span[@itemprop='name']")
+        authors = tag.xpath(".//span[@itemprop='author']/a")
         for author in authors:
-            author_list.append(author.text)
+            author_url = author.get('href')
+            author_name = author.xpath(".//span[@itemprop='name']")[0]
+            author_list.append(author_name.text + ' ' + author_url)
         # print author_list
         title = tag.xpath(".//span[@class='title']")[0].text
         temp_dict[title] = author_list
