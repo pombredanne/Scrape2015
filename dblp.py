@@ -7,6 +7,20 @@ from bs4 import BeautifulSoup
 from utils import *
 import os
 
+def extract_author(filename):
+    temp_dict = {}
+    with open(filename, 'r') as fp:
+        html = etree.HTML(fp.read())
+    tags = html.xpath("//li[@class='entry inproceedings']/div[@class='data']")
+    for tag in tags:
+        author_list = []
+        authors = tag.xpath(".//span[@itemprop='author']/a/span[@itemprop='name']")
+        for author in authors:
+            author_list.append(author)
+        title = tag.xpath(".//br/span[@class='title']")[0].text()
+        temp_dict['title'] = author_list
+    print temp_dict
+
 
 def extract_information(filename):
     ret = {}
@@ -47,5 +61,5 @@ def extract_all(dire):
 
 if __name__ == '__main__':
 	# download("https://dblp.org/db/conf/sigmod/sigmod2013", "./result/dblp.html")
-	extract_all("dblp_result")
-
+	# extract_all("dblp_result")
+    extract_author('./dblp_result/2014_cvpr?-3822629069221609197')
