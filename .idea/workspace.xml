@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee67e56f-b19c-4a12-8865-6e8a78f648b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dblp.py" afterPath="$PROJECT_DIR$/dblp.py" />
-    </list>
+    <list default="true" id="ee67e56f-b19c-4a12-8865-6e8a78f648b1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extract_author.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="extract_author.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/extract_author.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -80,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="author_dict.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="author_dict.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/author_dict.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="0" column="220" lean-forward="false" selection-start-line="0" selection-start-column="220" selection-end-line="0" selection-end-column="270" />
+            <state relative-caret-position="255">
+              <caret line="0" column="1973" lean-forward="true" selection-start-line="0" selection-start-column="1973" selection-end-line="0" selection-end-column="1973" />
               <folding />
             </state>
           </provider>
@@ -664,21 +661,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extract_author.py">
+    <entry file="file://$PROJECT_DIR$/author_dict.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="0" column="1973" lean-forward="true" selection-start-line="0" selection-start-column="1973" selection-end-line="0" selection-end-column="1973" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/author_dict.json">
+    <entry file="file://$PROJECT_DIR$/extract_author.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="0" column="220" lean-forward="false" selection-start-line="0" selection-start-column="220" selection-end-line="0" selection-end-column="270" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
