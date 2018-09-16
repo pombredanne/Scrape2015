@@ -33,6 +33,18 @@ def author_analysis():
 
         print conf, author_dict['author_aver'], author_dict['author_sum']
 
+def citation_analysis():
+    with open('./citation_dict.json', 'r') as fp:
+        citation_dict = json.loads(fp.read())
+    fp.close()
+    for conf in citation_dict.keys():
+        for year in citation_dict[conf].keys():
+            citation_list = []
+            for title in citation_dict[conf][year].keys():
+                citation_list.append(citation_dict[conf][year][title])
+            print conf, year, np.array(citation_list).mean()
+
+
 def get_paper_num():
     with open('title.json', 'r') as fp:
         title_dict = json.loads(fp.read())
